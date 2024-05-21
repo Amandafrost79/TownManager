@@ -19,12 +19,12 @@ form {
     align-items: center;
     margin-bottom: 10px;
     width: 100%; 
-    max-width: 400px; 
+    max-width: 600px; 
   }
   
   .form-group label {
     width: 30%; 
-    margin-right: 10px;
+    margin-right: 20px;
   }
   
   .form-group input {
@@ -36,4 +36,18 @@ form {
     border-radius: 4px;
   }
   
+  button {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
 
+}
+
+  button:hover {
+    background-color: gray;
+}

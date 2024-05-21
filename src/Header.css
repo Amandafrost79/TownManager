@@ -1,6 +1,8 @@
 .title {
     text-align: center;
     margin-top: 50px;
+    font-size: 2.5em;
+    line-height: 0.5;
 }
 
 .town {
@@ -8,5 +10,5 @@
 }
 
 .manager {
-    color: #34e7bc
+    color: aqua
 }
