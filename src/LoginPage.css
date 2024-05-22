@@ -12,6 +12,8 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 500px;
 }
 
 .form-group {
@@ -19,26 +21,28 @@ form {
     align-items: center;
     margin-bottom: 10px;
     width: 100%; 
-    max-width: 600px; 
-  }
+    position: relative;
+}
   
-  .form-group label {
+.form-group label {
     width: 30%; 
     margin-right: 20px;
-  }
+    text-align: right;
+}
   
-  .form-group input {
+.form-group input {
     width: 70%; 
-    padding: 2px;
+    padding: 3px;
     font-size: 16px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
+
+}
   
-  button {
+button {
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     padding: 10px;
     font-weight: bold;
     font-size: 16px;
@@ -48,6 +52,6 @@ form {
 
 }
 
-  button:hover {
+button:hover {
     background-color: gray;
 }

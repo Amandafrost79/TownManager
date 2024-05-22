@@ -1,9 +1,14 @@
 import React from "react";
+import ClearButton from "./ClearButton";
 
 const PasswordInput = ({ password, onPasswordChange }) => {
+  const handleClear = () => {
+    onPasswordChange({ target: { value: "" } });
+  };
+
   return (
     <div className="form-group">
-      <label htmlFor="">Password: </label>
+      <label>Password: </label>
       <input
         type="password"
         value={password}
@@ -11,6 +16,7 @@ const PasswordInput = ({ password, onPasswordChange }) => {
         placeholder="Password"
         required
       />
+      {password && <ClearButton onClick={handleClear} />}
     </div>
   );
 };
