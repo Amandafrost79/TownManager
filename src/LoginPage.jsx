@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./Header";
+import Title from "./Title";
 import EmailInput from "./EmailInput";
 import PasswordInput from "./PasswordInput";
 import SubmitButton from "./SubmitButton";
@@ -15,19 +15,16 @@ const LoginPage = () => {
   };
 
   const handlePasswordChange = (e) => {
-    setPassword(e.target.valule);
+    setPassword(e.target.value);
   };
 
   const handlesubmit = (e) => {
     e.preventDefault();
-
-    console.log("Email:", email);
-    console.log("Password:", password);
   };
 
   return (
     <div className="login-page">
-      <Header />
+      <Title />
       <p style={{ fontSize: 25, fontWeight: 600 }}>Log in to your account</p>
       <form onSubmit={handlesubmit}>
         <EmailInput email={email} onEmailChange={handleEmailChange} /> <br />
