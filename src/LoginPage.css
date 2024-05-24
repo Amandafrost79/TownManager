@@ -31,7 +31,7 @@ form {
 }
   
 .form-group input {
-    width: 70%; 
+    width: 140%; 
     padding: 3px;
     font-size: 16px;
     box-sizing: border-box;
@@ -41,6 +41,7 @@ form {
 }
   
 button {
+    background-color: aqua;
     width: 100%;
     max-width: 200px;
     padding: 10px;
@@ -54,4 +55,9 @@ button {
 
 button:hover {
     background-color: gray;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
 }

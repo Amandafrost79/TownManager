@@ -1,7 +1,7 @@
 import React from "react";
 
 const RegisterButton = () => {
-  return <button style={{ backgroundColor: "aqua" }}>Register</button>;
+  return <button>Register</button>;
 };
 
 export default RegisterButton;

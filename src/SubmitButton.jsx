@@ -1,11 +1,7 @@
 import React from "react";
 
 const SubmitButton = () => {
-  return (
-    <button type="submit" style={{ backgroundColor: "aqua" }}>
-      Submit
-    </button>
-  );
+  return <button type="submit">Submit</button>;
 };
 
 export default SubmitButton;

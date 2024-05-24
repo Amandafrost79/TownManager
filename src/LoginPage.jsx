@@ -25,7 +25,7 @@ const LoginPage = () => {
   return (
     <div className="login-page">
       <Title />
-      <p style={{ fontSize: 25, fontWeight: 600 }}>Log in to your account</p>
+      <p>Log In To Your Account</p>
       <form onSubmit={handlesubmit}>
         <EmailInput email={email} onEmailChange={handleEmailChange} /> <br />
         <PasswordInput
@@ -35,7 +35,7 @@ const LoginPage = () => {
         <br />
         <SubmitButton />
       </form>
-      <p style={{ fontSize: 20, fontWeight: 500 }}>Not Registered?</p>
+      <p>Not Registered?</p>
       <RegisterButton />
     </div>
   );
