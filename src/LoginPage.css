@@ -8,6 +8,21 @@
     justify-content: center;
 }
 
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5em;
+    line-height: 0.5;
+}
+
+.town {
+    color: #fff;
+}
+
+.manager {
+    color: aqua
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -39,6 +54,29 @@ form {
     border-radius: 4px;
 
 }
+
+.clear-button {
+    
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  border: none;
+  color: white;
+  line-height: 1;-radius: 50%;
+  cursor: pointer;
+  font
+}
+
+.clear-button:hover {
+    background-color: black;
+}
   
 button {
     background-color: aqua;
@@ -54,7 +92,7 @@ button {
 }
 
 button:hover {
-    background-color: gray;
+    background-color: rgb(145, 237, 237);
 }
 
 p {
