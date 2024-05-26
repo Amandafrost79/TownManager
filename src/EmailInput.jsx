@@ -14,7 +14,6 @@ const EmailInput = ({ email, onEmailChange }) => {
         value={email}
         onChange={onEmailChange}
         placeholder="Email address"
-        required
       />
       {email && <ClearButton onClick={handleClear} />}
     </div>

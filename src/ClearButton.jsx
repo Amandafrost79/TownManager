@@ -1,5 +1,5 @@
 import React from "react";
-import "./ClearButton.css";
+import "./LoginPage.css";
 
 const ClearButton = ({ onClick }) => {
   return (

@@ -14,7 +14,6 @@ const PasswordInput = ({ password, onPasswordChange }) => {
         value={password}
         onChange={onPasswordChange}
         placeholder="Password"
-        required
       />
       {password && <ClearButton onClick={handleClear} />}
     </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Title from "./Title";
 import EmailInput from "./EmailInput";
 import PasswordInput from "./PasswordInput";
@@ -9,6 +10,7 @@ import "./LoginPage.css";
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -20,9 +22,10 @@ const LoginPage = () => {
 
   const handlesubmit = (e) => {
     e.preventDefault();
+    console.log("Email:", email);
+    console.log("Password:", password);
+    navigate("/home");
   };
-  console.log("Email:", email);
-  console.log("Password:", password);
 
   return (
     <div className="login-page">
