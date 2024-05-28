@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Title from "./Title";
+import "./LoginPage.css";
 
 const RegisterPage = () => {
   const [email, setEmail] = useState("");
@@ -25,10 +27,11 @@ const RegisterPage = () => {
   };
 
   return (
-    <div>
-      <h1>Register for TownManager</h1>
+    <div className="login-page">
+      <Title />
+      <h2>Register for TownManager</h2>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="form-group">
           <label>Email: </label>
           <input
             type="email"
@@ -36,8 +39,9 @@ const RegisterPage = () => {
             onChange={handleEmailChange}
             placeholder="Email address"
           />
-        </div>
-        <div>
+        </div>{" "}
+        <br />
+        <div className="form-group">
           <label>Password: </label>
           <input
             type="password"
@@ -46,7 +50,8 @@ const RegisterPage = () => {
             placeholder="Password"
           />
         </div>
-        <div>
+        <br />
+        <div className="form-group">
           <label>Confirm Password: </label>
           <input
             type="password"
