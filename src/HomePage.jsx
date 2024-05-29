@@ -1,9 +1,10 @@
 import React from "react";
+import AvatarUpload from "./AvatarUpload";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>How can I assist you today?</h1>
+      <AvatarUpload name={name} />
     </div>
   );
 };
