@@ -1,0 +1,35 @@
+.options-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto; /* Center the card */
+  }
+  
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .options-list li svg {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .options-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .options-list li a:hover {
+    text-decoration: underline;
+  }
