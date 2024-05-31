@@ -48,7 +48,6 @@ const AvatarUpload = ({ name }) => {
         onChange={handleAvatarChange}
         className="hidden-file-input"
       />
-      {/* <input type="file" accept="image/*" onChange={handleAvatarChange} /> */}
       <OptionsCard />
     </div>
   );
