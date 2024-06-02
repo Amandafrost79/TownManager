@@ -5,6 +5,14 @@
   text-align: center;
 } 
 
+body {
+  background: linear-gradient(to right, #cfeef0, #ffffff); /* Example gradient */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
 /* .logo {
   height: 6em;
   padding: 1.5em;

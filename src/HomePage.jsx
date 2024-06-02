@@ -7,7 +7,6 @@ const HomePage = () => {
   const [name, setName] = useState("Amanda");
   return (
     <div className="home-page">
-      <Title />
       <AvatarUpload name={name} />
     </div>
   );

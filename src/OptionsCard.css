@@ -1,35 +1,48 @@
 .options-card {
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin: 0 auto; /* Center the card */
-  }
-  
-  .options-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .options-list li {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    font-size: 18px;
-  }
-  
-  .options-list li svg {
-    margin-right: 10px;
-    color: #333;
-  }
-  
-  .options-list li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .options-list li a:hover {
-    text-decoration: underline;
-  }
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 600px; 
+  margin: 20px auto; 
+  text-align: center;
+}
+
+.options-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.option {
+  flex: 0 1 30%; 
+  margin: 10px;
+}
+
+.icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px; 
+  height: 60px; 
+  margin: 0 auto; 
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 24px; 
+}
+
+.option p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.option a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.option a:hover p {
+  text-decoration: underline;
+}

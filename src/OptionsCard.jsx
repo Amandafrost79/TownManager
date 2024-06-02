@@ -12,23 +12,48 @@ import "./OptionsCard.css";
 const OptionsCard = () => {
   return (
     <div className="options-card">
-      <ul className="options-list">
-        <li>
-          <FaCalendarAlt /> <Link to="/scheduler">Meeting Scheduler</Link>
-        </li>
-        <li>
-          <FaClock /> <Link to="/timesheets">Time Sheets</Link>
-        </li>
-        <li>
-          <FaUsers /> <Link to="staffschedule">Staff Schedule</Link>
-        </li>
-        <li>
-          <FaComments /> <Link to="workchat">Work Chat</Link>
-        </li>
-        <li>
-          <FaBell /> <Link to="/reminders">Reminders</Link>
-        </li>
-      </ul>
+      <div className="options-grid">
+        <div className="option">
+          <Link to="/scheduler">
+            <div className="icon-circle">
+              <FaCalendarAlt />
+            </div>
+            <p>Meeting Scheduler</p>
+          </Link>
+        </div>
+        <div className="option">
+          <Link to="/timesheets">
+            <div className="icon-circle">
+              <FaClock />
+            </div>
+            <p>Time Sheets</p>
+          </Link>
+        </div>
+        <div className="option">
+          <Link to="/staffschedule">
+            <div className="icon-circle">
+              <FaUsers />
+            </div>
+            <p>Staff Schedule</p>
+          </Link>
+        </div>
+        <div className="option">
+          <Link to="/workchat">
+            <div className="icon-circle">
+              <FaComments />
+            </div>
+            <p>Work Chat</p>
+          </Link>
+        </div>
+        <div className="option">
+          <Link to="/reminders">
+            <div className="icon-circle">
+              <FaBell />
+            </div>
+            <p>Reminders</p>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

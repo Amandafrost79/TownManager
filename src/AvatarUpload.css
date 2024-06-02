@@ -52,9 +52,10 @@
   }
   
   .upload-button {
-    background-color: aqua; 
+    background-color: white; 
     border: none;
     color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1px 5px ;
     text-align: center;
     text-decoration: none;
@@ -68,5 +69,5 @@
   }
   
   .upload-button:hover {
-    background-color: rgb(92, 221, 221);
+    background-color: rgb(140, 233, 233);
   }
