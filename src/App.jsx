@@ -4,6 +4,8 @@ import LoginPage from "./LoginPage";
 import HomePage from "./HomePage";
 import RegisterPage from "./RegisterPage";
 
+import Footer from "./Footer";
+
 import "./App.css";
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

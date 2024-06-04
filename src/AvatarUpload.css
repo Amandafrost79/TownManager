@@ -16,7 +16,7 @@
     width: 150px;
     height: 150px;
     margin: 20px;
-    border: 2px dashed #ccc;
+    border: 2px solid #888787;
     border-radius: 50%;
     overflow: hidden;
     background-color: #f0f0f0;
@@ -39,6 +39,7 @@
   
   .greeting {
     margin-left: 20px;
+    color: black;
   }
 
   .greeting .name {

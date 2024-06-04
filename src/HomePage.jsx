@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AvatarUpload from "./AvatarUpload";
 import "./AvatarUpload.css";
-import Title from "./Title";
+import Footer from "./Footer";
 
 const HomePage = () => {
   const [name, setName] = useState("Amanda");

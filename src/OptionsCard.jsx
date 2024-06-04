@@ -15,7 +15,7 @@ const OptionsCard = () => {
       <div className="options-grid">
         <div className="option">
           <Link to="/scheduler">
-            <div className="icon-circle">
+            <div className="icon-circle calendar-icon">
               <FaCalendarAlt />
             </div>
             <p>Meeting Scheduler</p>
@@ -23,7 +23,7 @@ const OptionsCard = () => {
         </div>
         <div className="option">
           <Link to="/timesheets">
-            <div className="icon-circle">
+            <div className="icon-circle clock-icon">
               <FaClock />
             </div>
             <p>Time Sheets</p>
@@ -31,7 +31,7 @@ const OptionsCard = () => {
         </div>
         <div className="option">
           <Link to="/staffschedule">
-            <div className="icon-circle">
+            <div className="icon-circle users-icon">
               <FaUsers />
             </div>
             <p>Staff Schedule</p>
@@ -39,7 +39,7 @@ const OptionsCard = () => {
         </div>
         <div className="option">
           <Link to="/workchat">
-            <div className="icon-circle">
+            <div className="icon-circle comments-icon">
               <FaComments />
             </div>
             <p>Work Chat</p>
@@ -47,7 +47,7 @@ const OptionsCard = () => {
         </div>
         <div className="option">
           <Link to="/reminders">
-            <div className="icon-circle">
+            <div className="icon-circle bell-icon">
               <FaBell />
             </div>
             <p>Reminders</p>
