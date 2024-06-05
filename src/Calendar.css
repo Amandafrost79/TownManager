@@ -1,0 +1,78 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+  .calendar-header button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calendar-header button:hover {
+    background-color: #45a049;
+  }
+  
+  .days-of-week {
+    display: flex;
+    width: 100%;
+  }
+  
+  .day-name {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .days-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .day {
+    width: 14.28%; /* 100% / 7 days */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    user-select: none;
+  }
+  
+  .day.empty {
+    background-color: transparent;
+    cursor: default;
+  }
+  
+  .day.available {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .day:hover {
+    background-color: #d3d3d3;
+  }
+  
